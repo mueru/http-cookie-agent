@@ -1,5 +1,5 @@
-import type http from 'node:http';
-import liburl from 'node:url';
+import type http from 'http';
+import liburl from 'url';
 
 import type { CookieOptions } from '../cookie_options';
 import { createCookieHeaderValue } from '../utils/create_cookie_header_value';
